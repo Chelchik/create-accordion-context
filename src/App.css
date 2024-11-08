@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;  
+}
+
+#title-input {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+}
+
+#description-textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
+  border: none;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px; 
+}
+
+#title-input {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+#description-input {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(22, 185, 22);
+  color: #ffffff;
+  border: none;
+}
+
+.accordions-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.accordion {
+  width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titleBox {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleBox > p {
+  font-size: 18px;
+}
+
+.deleteAndShowButtonsBox {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.deleteAndShowButtonsBox > b {
+  font-size: 20px;
+}
+
+.delete-btn {
+  width: 90px;
+  height: 30px;
+  border-radius: 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 15px;
+}
+
+.description-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.themeBtn {
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: none;
+  transition: all 0.3s;
+}
